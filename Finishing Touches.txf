@@ -1,0 +1,19 @@
+Finishing Touches:
+
+MUST HAVE:
+
+ADVANCED:
+[ ] Add favicon to the page
+[ ] Banner with background video
+
+
+DONE:
+[ ] Top navigation bar with dropdown buttons
+[ ] Banner with background image, white text, and a green button
+[ ] Color or text change when mouse hovers over
+[ ] At least 3 different body sections with different background images or colors
+[ ] 2 (or 3) card items per row in a body section
+[ ] Navigation, contact, sitemap, privacy policy, term of use, etc in footer
+[ ] Animation on an element
+[ ] Bootstrap carousel for banner
+[ ] Footer with social icons that link to the actual social pages

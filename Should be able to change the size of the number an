@@ -1,0 +1,15 @@
+Should be able to change the size of the number and the position RIGHT from the list...
+that should avoid the issue of the list shifting sideways...
+now each number could intentionally be shifted a bit through "next child"
+
+probably need Javascript to animate/change the images and the H2 color.
+
+Try to animate a cool background of little green motorbikes driving across the screen.
+
+Dont forget to fix dropdown menus at the top
+
+also fix the play store and android icons
+
+also need to make the news items catchier, not a carousel but something that pops more
+
+the QR code needs more blackspace
