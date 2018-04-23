@@ -18,12 +18,12 @@
 </head>
 <body>
 
-<div id="navbar">
+<div id="navbar" class="navbar">
 	<!-- NAVIGATION BAR LEFT --> 
-	<div id="navbar_left">
+	<div id="navbar_left" class="navbar_left">
 		<ul>
 			<li><img class="top-logo" src="./images/logo-green.png"></li>
-			<li><a class="dropDown" href="#">Vietnam</a></li>
+			<li><a class="dropDown" onclick="dropMenu()" href="#">Vietnam</a></li>
 			<li><a class="dropDown" href="#">Services</a></li>
 			<li><a class="dropDown" href="#">Corporate</a></li>
 			<li><a href="#">GrabPay</a></li>
@@ -56,10 +56,20 @@
 			<li><a href="#">English</a></li>
 		</ul>
 	</div>
+	<div id="countries" class="dropdown-list" >
+		<ul>
+			<li><a href="#" class="dropDown">Malaysia</a></li>
+			<li><a href="#" class="dropDown">China</a></li>
+			<li><a href="#" class="dropDown">Korea</a></li>
+			<li><a href="#" class="dropDown">Singapore</a></li>
+			<li><a href="#" class="dropDown">Thailand</a></li>
+			<li><a href="#" class="dropDown">Vietnam</a></li>
+		</ul>
+	</div>
 </div>
 
-<div id="topcarousel">
-  <div id="myCarousel" class="carousel slide cover" data-ride="carousel">
+<div id="topcarousel" class="topcarousel">
+  <div id="myCarousel" class="myCarousel carousel slide cover" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -124,7 +134,7 @@
 </div>
 
 </div>
-<section id="how-grab-works" class="section">
+<section id="how-grab-works" class="section how-grab-works">
 		<header>
 			<h2>How Grab Works</h2>
 			<p>Use Grab to go anywhere freely.</p>
@@ -134,11 +144,6 @@
 				<img class="phone" src="./images/empty.png">
 				<img class="screen" src="./images/1_step-1.jpg">
 			</div>
-<!-- 			<div id="inner-phone-image" class="hidden-xs col-sm-6">
-				<div id="phone-background">
-					<div class="filler">Dolore ad eiusmod quis laboris ullamco aute tempor elit est anim incididunt id do.</div>
-				</div>
-			</div> -->
 			<div class="col-xs-12 col-sm-6">
 				<ol class='steps'>
 					<li>
@@ -160,18 +165,18 @@
 				</ol>
 			</div>
 		</div>
-</section><!-- How Grab Works Section -->
-<div id="need_to_know">
+</section>
+<section id="need_to_know" class="need_to_know">
 	<div class="fluid-container text-center">
 		<h2>What you should know before your first Grab ride</h2>
 		<a href="https://www.grap.com/vn/en/rideguide/" class="btn btnNext">click to learn</a>
 	</div>
-</div>
+</section>
 
 
-<div id="choices">
+<section id="choices" class="choices">
 
-<div id="choices-carousel" class="carousel slide" data-ride="carousel">
+<div id="choices-carousel" class="choices-carousel carousel slide" data-ride="carousel">
 
   <!-- Indicators -->
   <ul class="carousel-indicators">
@@ -212,8 +217,8 @@
   </div>
 </div>
 </div>
-
-<div id="downloadqr" class="container-fluid" style="background-image: url(https://www.grab.com/vn/wp-content/uploads/sites/11/2016/04/dg-dl-grab-back.jpg");												">
+</section>
+<section id="downloadqr" class="container-fluid downloadqr" style="background-image: url(https://www.grab.com/vn/wp-content/uploads/sites/11/2016/04/dg-dl-grab-back.jpg");">
 	<header>
 		<h2>Download Grab</h2>
 	</header>
@@ -232,7 +237,8 @@
 	</div>
 
 </div>
-<section id="news" class="section">
+</section>
+<section id="news" class="section news">
 	<header>
 		<h2>Latest News</h2>
 		<p>Explore the world of grab</p>
@@ -309,7 +315,7 @@
 	<div>
 </section>
 
-<div id="sitemap">
+<section id="sitemap" class=".sitemap">
 	<div class="container-fluid">
 		<div class="row"><!-- Menu Row -->
 			<div class="col-xs-12 col-sm-3">
@@ -383,7 +389,7 @@
 		</div>
 		</div><!-- Social Media Row -->
 	</div>
-</div><!-- sitemap section -->
+</section><!-- sitemap section -->
 
 <footer>
 		<div class="container">
